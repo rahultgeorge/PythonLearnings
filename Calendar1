@@ -1,0 +1,6 @@
+import calendar
+#MM-DD-YYYY
+line=[int(x) for x in input().split()]
+DAYS=["MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY","SUNDAY"]
+print(DAYS[calendar.weekday(line[2],line[0],line[1])])
+
